@@ -18,5 +18,3 @@ function openOrSenior(data){
     }
     return data.map(MembershipRequirement)
 }
-
-
