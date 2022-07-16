@@ -12,6 +12,9 @@
 
 // All letters will be lowercase and all inputs will be valid.
 
+// assert.strictEqual(high('man i need a taxi up to ubud'), 'taxi');
+// assert.strictEqual(high('what time are we climbing up the volcano'), 'volcano')
+
 function high(s){
     let as = s.split(' ').map(s => [...s].reduce((a, b) => a+b.charCodeAt(0) - 96, 0)
     );
