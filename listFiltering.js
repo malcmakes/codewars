@@ -11,6 +11,5 @@
 
 function filter_list(l) {
     let result = l.filter((elem) => Number.isInteger(elem) && elem >= 0);
-
     return result;
   }
